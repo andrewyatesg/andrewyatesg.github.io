@@ -17,17 +17,17 @@
       institution: Harvard University, Cambridge, MA
       year: 2022 - 
       description:
-        - title: "Activities and societies: Harvard Quantum Initiative"
+        - "Activities and societies: Harvard Quantum Initiative"
     - title: Bachelor of Arts in Physics
       institution: Cornell University, Ithaca, NY
       year: 2018 - 2022
       description:
-        - title: Magna Cum Laude
+        - "Magna Cum Laude"
         - title: Selected coursework
           contents:
             - Quantum Information Processing, Blackholes & Quantum Information (Grad), QFT (Grad), Solid State Physics, Applied Functional Analysis (Grad).
 
-- title: Experience
+- title: Research Experience
   type: time_table
   contents:
     - title: Summer Undergraduate Research Fellow
@@ -98,7 +98,7 @@
       items:
         - "Cirq, Qutip, Qiskit, Pennylane, Tensorflow Quantum, OpenFermion"
 
-- title: Experience
+- title: Industry Experience
   type: time_table
   contents:
     - title: Software Developer
