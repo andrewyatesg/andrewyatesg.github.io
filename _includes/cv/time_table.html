@@ -16,6 +16,12 @@
             {% if content.institution %}
             <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem;">{{content.institution}}</h6>
             {% endif %}
+            {% if content.advisors %}
+            <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem;"><span class="font-weight-bold">Advisor(s):</span> {{content.advisors}}</h6>
+            {% endif %}
+            {% if content.coadvisors %}
+            <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem;"><span class="font-weight-bold">Co-advisor(s):</span> {{content.coadvisors}}</h6>
+            {% endif %}
             {% if content.description %}
               <ul class="items">
                 {% for item in content.description %}
