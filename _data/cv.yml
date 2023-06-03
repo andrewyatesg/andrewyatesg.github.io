@@ -7,8 +7,8 @@
       value: Cambridge, MA
     - name: Hometown
       value: Fallbrook, CA
-    - name: Email
-      value: [first + last name]@g.harvard.edu
+    # - name: Email
+    #   value: [first + last name]@g.harvard.edu
 
 - title: Education
   type: time_table
