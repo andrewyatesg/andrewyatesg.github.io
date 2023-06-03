@@ -2,96 +2,93 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+      value: Andrew Yates
+    - name: Hometown
+      value: Fallbrook, CA
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: PhD in Quantum Science & Engineering - Theoretical Physics
+      institution: Harvard University, Cambridge, MA
+      year: 2022 - 
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+    - title: Bachelor of Arts in Physics
+      institution: Cornell University, Ithaca, NY
+      year: 2018 - 2022
+      description:
+        - title: Selected coursework
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+            - Quantum Information Processing, Blackholes & Quantum Information (Grad), QFT (Grad), Solid State Physics, Applied Functional Analysis (Grad).
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Summer Undergraduate Research Fellow
+      institution: Caltech Institute For Quantum Information And Matter
+      year: 2021
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Advisors: John Preskill, Sepehr Nezami 
+        - Supported by the Caltech Summer Undergraduate Research Fellowship.  
+        - Gave a talk at the MURI Annual Meeting 2021 for Quantum Codes, Tensor Networks, and Quantum Spacetime.  
+        - Studied the effects of noise on ‘quantum gravity in the lab’ experiments, based on https://arxiv.org/abs/2102.01064. Using quantum information and random matrix theory, predicted unexpected noise-resilience caused by special operator-scrambling behavior. Developing a quantum error correction strategy that restores the teleported state to its noiseless form.  
+    
+    - title: Undergraduate Researcher
+      institution: Cornell University
+      year: 2020  
       description:
-        - Description 1.
-        - Description 2.
+        - Advisors: Paul Ginsparg and Peter McMahon, Thomas Hartman, Eliott Rosenberg
+        - Implemented a quantum algorithm to prepare thermofield double states of the Sachdev–Ye–Kitaev (SYK) model. This algorithm consisted of the Jordan-Wigner transformation and an adiabatic, trotterized Hamiltonian simulation of SYK. Developed methods for measuring the von Neumann and Rényi entropies of such systems.  
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+    - title: Undergraduate Researcher
+      institution: Cornell University
+      year: 2019-2022
       description:
+        - Advisors: Peter McMahon, Logan Wright  
+        - Created and simulated a circuit-model quantum reservoir ML algorithm. Discovered that it is equivalent to a dual classical neural network, where the layer size grows exponentially with its depth.
+        - Simulated ‘noise-resilient quantum circuits’ which are ‘Markovian’ and ‘locally rapidly mixing’. Created methods to diagnose and catalogue circuits with these properties. Found tensor network descriptions of the same phenomena which provided elegant analytic tools.
+        - Mentored undergrads in Peter McMahon’s group who are working on quantum machine learning projects.
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+#     - title: Professor of Theoretical Physics
+#       institution: Karl-Ferdinand University, Prague, Czechoslovakia
+#       year: 1911 - 1917
+#       description:
 
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+#     - title: Associate Professor of Theoretical Physics
+#       institution: University of Zurich, Zurich, Switzerland
+#       year: 1909 - 1911
 
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
-      items: 
-        - Max Planck Medal
+# - title: Open Source Projects
+#   type: time_table
+#   contents:
+#     - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
+#       year: 2015-now
+#       description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
 
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
+# - title: Honors and Awards
+#   type: time_table
+#   contents:
+#     - year: 1921
+#       items: 
+#         - Nobel Prize in Physics 
+#         - Matteucci Medal
+#     - year: 2029
+#       items: 
+#         - Max Planck Medal
 
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+# - title: Academic Interests
+#   type: nested_list
+#   contents:
+#     - title: Topic 1.
+#       items: 
+#         - Description 1.
+#         - Description 2.
+#     - title: Topic 2.
+#       items:
+#         - Description 1.
+#         - Description 2.
+
+# - title: Other Interests
+#   type: list
+#   contents:
+#     - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
