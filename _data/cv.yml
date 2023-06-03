@@ -3,6 +3,8 @@
   contents:
     - name: Full Name
       value: Andrew Yates
+    - name: Location
+      value: Cambridge, MA
     - name: Hometown
       value: Fallbrook, CA
 
