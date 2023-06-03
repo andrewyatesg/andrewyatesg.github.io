@@ -17,10 +17,12 @@
       institution: Harvard University, Cambridge, MA
       year: 2022 - 
       description:
+        - title: "Activities and societies: Harvard Quantum Initiative"
     - title: Bachelor of Arts in Physics
       institution: Cornell University, Ithaca, NY
       year: 2018 - 2022
       description:
+        - title: Magna Cum Laude
         - title: Selected coursework
           contents:
             - Quantum Information Processing, Blackholes & Quantum Information (Grad), QFT (Grad), Solid State Physics, Applied Functional Analysis (Grad).
@@ -35,7 +37,7 @@
       coadvisors: Sepehr Nezami
       description:
         - Supported by the Caltech Summer Undergraduate Research Fellowship.  
-        - Gave a talk at the MURI Annual Meeting 2021 for Quantum Codes, Tensor Networks, and Quantum Spacetime.  
+        - "Gave a talk at the MURI Annual Meeting 2021: Quantum Codes, Tensor Networks, and Quantum Spacetime."
         - Studied the effects of noise on ‘quantum gravity in the lab’ experiments, based on https://arxiv.org/abs/2102.01064. Using quantum information and random matrix theory, predicted unexpected noise-resilience caused by special operator-scrambling behavior. Developing a quantum error correction strategy that restores the teleported state to its noiseless form.  
     
     - title: Undergraduate Researcher
@@ -83,17 +85,33 @@
 #       items: 
 #         - Max Planck Medal
 
-# - title: Academic Interests
-#   type: nested_list
-#   contents:
-#     - title: Topic 1.
-#       items: 
-#         - Description 1.
-#         - Description 2.
-#     - title: Topic 2.
-#       items:
-#         - Description 1.
-#         - Description 2.
+- title: Skills
+  type: nested_list
+  contents:
+    - title: Quantum information
+      items: 
+        - "Quantum Shannon theory, random matrix theory (i.e., unitary t-designs, Weingarten Calculus)"
+    - title: QML
+      items:
+        - "Classical/quantum reservior machine learning, linear algebra algorithms, quantum neural networks"
+    - title: Software 
+      items:
+        - "Cirq, Qutip, Qiskit, Pennylane, Tensorflow Quantum, OpenFermion"
+
+- title: Experience
+  type: time_table
+  contents:
+    - title: Software Developer
+      institution: "Cornell Design & Tech Initiative"
+      year: 2019
+      description:
+        - Software developer for DTI, an engineering project team at Cornell. 
+    - title: Software Developer Intern
+      institution: "Xifn, Inc."
+      year: 2017
+      description:
+        - Software architect intern at Xifn, a company that automates healthcare financial processing. 
+
 
 # - title: Other Interests
 #   type: list
